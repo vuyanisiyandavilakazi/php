@@ -1,0 +1,39 @@
+<svg viewBox="0 0 878.39 153.00" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .icon-path{}
+    .dot{transform-box:fill-box;transform-origin:center;opacity:0;animation:popIn .4s cubic-bezier(.34,1.56,.64,1) forwards}
+    .letter,.num-group{opacity:0;animation:fadeUp .5s ease-out forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes popIn{0%{opacity:0;transform:scale(0)}60%{opacity:1;transform:scale(1.3)}100%{opacity:1;transform:scale(1)}}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    </style>
+<g transform="translate(-15.38,-28.50) scale(3.28125)">
+  <defs><linearGradient id="gradA" x1="50" y1="17" x2="15" y2="47" gradientUnits="userSpaceOnUse">
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-10 5;0 0" dur="6s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#00E6C3"/><stop offset="25%" stop-color="#2E9BF5"/><stop offset="50%" stop-color="#9B5DF0"/><stop offset="75%" stop-color="#E8449E"/><stop offset="100%" stop-color="#FF8A3D"/>
+  </linearGradient></defs>
+  <path class="icon-path" d="M48 20 L28 20 C 16 20 16 32 28 32 L36 32 C 48 32 48 44 36 44 L16 44" fill="none" stroke="url(#gradA)" stroke-width="5.5"
+        stroke-linecap="round" stroke-linejoin="round"
+        stroke-dasharray="98" stroke-dashoffset="98"
+        style="animation:draw 0.7s ease-out 0.0s forwards"/>
+  <circle class="dot" cx="16" cy="20" r="4" fill="#00E6C3" style="animation-delay:0.55s"/>
+  <circle class="dot" cx="48" cy="44" r="4" fill="#FF8A3D" style="animation-delay:0.63s"/>
+</g><g class="letter" style="animation-delay:0.45s"><path transform="translate(159.25,126.50) scale(0.14184,-0.14184)" d="M562 -120 472 1Q432 -7 394 -7Q295 -7 212.5 39.0Q130 85 81.5 167.5Q33 250 33 353Q33 456 81.5 538.0Q130 620 212.5 666.0Q295 712 394 712Q493 712 575.5 666.0Q658 620 705.5 538.0Q753 456 753 353Q753 263 716.5 188.5Q680 114 615 65L769 -120ZM394 149Q478 149 528.5 205.0Q579 261 579 353Q579 446 528.5 501.5Q478 557 394 557Q309 557 258.5 502.0Q208 447 208 353Q208 260 258.5 204.5Q309 149 394 149Z" fill="#17181C"/></g><g class="letter" style="animation-delay:0.5s"><path transform="translate(271.02,126.50) scale(0.14184,-0.14184)" d="M230 702V282Q230 219 261.0 185.0Q292 151 352 151Q412 151 444.0 185.0Q476 219 476 282V702H647V283Q647 189 607.0 124.0Q567 59 499.5 26.0Q432 -7 349 -7Q266 -7 200.5 25.5Q135 58 97.0 123.5Q59 189 59 283V702Z" fill="#17181C"/></g><g class="letter" style="animation-delay:0.55s"><path transform="translate(371.02,126.50) scale(0.14184,-0.14184)" d="M233 702V0H62V702Z" fill="#17181C"/></g><g class="letter" style="animation-delay:0.6s"><path transform="translate(412.87,126.50) scale(0.14184,-0.14184)" d="M693 351Q693 248 647.5 168.0Q602 88 518.5 44.0Q435 0 325 0H62V702H325Q436 702 519.0 658.0Q602 614 647.5 534.5Q693 455 693 351ZM519 351Q519 448 465.0 502.0Q411 556 314 556H233V148H314Q411 148 465.0 201.0Q519 254 519 351Z" fill="#17181C"/></g><g transform="translate(480.61,-28.50) scale(3.28125)">
+  <defs><linearGradient id="gradB" x1="50" y1="17" x2="15" y2="47" gradientUnits="userSpaceOnUse">
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-10 5;0 0" dur="7s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#FFD23D"/><stop offset="25%" stop-color="#FF9142"/><stop offset="50%" stop-color="#FF5E7D"/><stop offset="75%" stop-color="#E23DFF"/><stop offset="100%" stop-color="#7A3DFF"/>
+  </linearGradient></defs>
+  <path class="icon-path" d="M48 20 L28 20 C 16 20 16 32 28 32 L36 32 C 48 32 48 44 36 44 L16 44" fill="none" stroke="url(#gradB)" stroke-width="5.5"
+        stroke-linecap="round" stroke-linejoin="round"
+        stroke-dasharray="98" stroke-dashoffset="98"
+        style="animation:draw 0.7s ease-out 0.2s forwards"/>
+  <circle class="dot" cx="16" cy="20" r="4" fill="#FFD23D" style="animation-delay:0.75s"/>
+  <circle class="dot" cx="48" cy="44" r="4" fill="#7A3DFF" style="animation-delay:0.83s"/>
+</g><g class="num-group" style="animation-delay:1.0s">
+  <defs><linearGradient id="gradNum" x1="0%" y1="0%" x2="100%" y2="0%">
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-0.18 0;0 0" dur="5.5s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#A3FF3D"/><stop offset="25%" stop-color="#3DFFC1"/><stop offset="50%" stop-color="#3D8BFF"/><stop offset="75%" stop-color="#A33DFF"/><stop offset="100%" stop-color="#FF3DAE"/>
+  </linearGradient></defs>
+  <path transform="translate(655.24,126.50) scale(0.14184,-0.14184)" d="M 27.000 571 V 730 H 304.000 V 0 H 126.000 V 571 Z M 702.000 745 Q 850.000 745 916.500 646.0 Q 983.000 547 983.000 375 Q 983.000 201 916.500 102.0 Q 850.000 3 702.000 3 Q 554.000 3 487.500 102.0 Q 421.000 201 421.000 375 Q 421.000 547 487.500 646.0 Q 554.000 745 702.000 745 Z M 702.000 585 Q 633.000 585 611.000 530.5 Q 589.000 476 589.000 375 Q 589.000 307 597.000 262.5 Q 605.000 218 629.500 190.5 Q 654.000 163 702.000 163 Q 750.000 163 774.500 190.5 Q 799.000 218 807.000 262.5 Q 815.000 307 815.000 375 Q 815.000 476 793.000 530.5 Q 771.000 585 702.000 585 Z M 1055.000 571 V 730 H 1332.000 V 0 H 1154.000 V 571 Z" fill="url(#gradNum)"/>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boltGradient" x1="118" y1="20" x2="78" y2="185" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#AFF8FF"/>
+      <stop offset="45%" stop-color="#3FCBF2"/>
+      <stop offset="100%" stop-color="#0B7FD1"/>
+    </linearGradient>
+  </defs>
+  <path d="M 133.71,40.35 L 104.02,28.35 L 73.25,104.50 L 83.19,108.52 L 99.71,159.36 L 121.78,180.00 L 127.51,150.33 L 110.46,97.87 Z" fill="#4B3A9B"/>
+  <path d="M 126.75,31.99 L 97.06,20.00 L 66.29,96.15 L 76.22,100.16 L 92.75,151.01 L 114.82,171.65 L 120.55,141.98 L 103.50,89.52 Z" fill="url(#boltGradient)" stroke="#1B1440" stroke-width="2.1" stroke-linejoin="round"/>
+</svg>

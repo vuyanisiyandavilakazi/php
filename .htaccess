@@ -1,0 +1,35 @@
+# Route /api.php/anything into PATH_INFO for api.php (AcceptPathInfo)
+<IfModule mod_negotiation.c>
+    Options -MultiViews
+</IfModule>
+<IfModule mod_setenvif.c>
+</IfModule>
+
+AcceptPathInfo On
+
+RewriteEngine On
+
+# Let /api.php/x/y reach api.php with PATH_INFO=/x/y
+RewriteCond %{REQUEST_URI} ^/api\.php(/.*)?$
+RewriteRule ^ - [L]
+
+# Pretty URLs: /p/123 -> /p.php?path=123 style handling is done inside p.php
+# via $_SERVER['REQUEST_URI'] parsing, so no rewrite needed there beyond
+# making sure the request actually reaches p.php:
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/p/
+RewriteRule ^p/(.*)$ p.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/s/
+RewriteRule ^s/(.*)$ s.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/u/
+RewriteRule ^u/(.*)$ u.php [L,QSA]
+
+# Never let anyone fetch our lib/ or partials/ directly
+RewriteRule ^(lib|partials)/ - [F,L]
